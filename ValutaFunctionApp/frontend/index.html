@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Valutakonverterare</title>
+</head>
+<body>
+    <h1>Top 10 Valutor</h1>
+    <div id="currency-list"></div>
+    
+    <h2>Valutakonvertering</h2>
+    <form id="conversion-form">
+        <input type="text" id="amount" placeholder="Belopp" required>
+        <input type="text" id="from-currency" placeholder="Från valuta" required>
+        <input type="text" id="to-currency" placeholder="Till valuta" required>
+        <button type="submit">Konvertera</button>
+    </form>
+    <div id="conversion-result"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
